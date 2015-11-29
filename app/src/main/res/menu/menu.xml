@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuReread"
+        android:title="@string/menuReread"/>
+    <item
+        android:id="@+id/menuRemove"
+        android:title="@string/menuRemove"/>
+    <item android:title="@string/menuTextSize">
+        <menu>
+            <item
+                android:id="@+id/submenuTextSmall"
+                android:title="@string/subMenuTextSmall"/>
+            <item
+                android:id="@+id/submenuTextMid"
+                android:title="@string/subMenuTextMid"/>
+            <item
+                android:id="@+id/submenuTextBig"
+                android:title="@string/subMenuTextBig"/>
+        </menu>
+    </item>
+</menu>
